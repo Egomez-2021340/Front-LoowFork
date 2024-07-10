@@ -7,10 +7,10 @@ function Home() {
     return (
         <div>
             <h1>Bienvenido a la Aplicación de Trabajo</h1>
-            <button onClick={() => navigate('/perfil')}>Perfil</button>
             <button onClick={() => navigate('/usuario')}>Usuario</button>
+            <button onClick={() => navigate('/perfil')}>Perfil</button>
             <button onClick={() => navigate('/company')}>Company</button>
-            <button>Formulario 4</button>
+            <button onClick={() => navigate('/postwork')}>PostWork</button>
         </div>
     );
 }

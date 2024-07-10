@@ -4,6 +4,7 @@ import Home from './components/Home';
 import PerfilForm from './components/PerfilForm';
 import UsuarioForm from './components/UsuarioForm';
 import CompanyForm from './components/CompanyForm';
+import PostWorkForm from './components/PostWorkForm';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path="/perfil" element={<PerfilForm />} />
                 <Route path="/usuario" element={<UsuarioForm />} />
                 <Route path="/company" element={<CompanyForm />} />
+                <Route path="/postwork" element={<PostWorkForm />} />
             </Routes>
         </Router>
     );

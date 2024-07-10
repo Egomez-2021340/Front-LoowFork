@@ -1,0 +1,14 @@
+.postwork-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postwork-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.postwork-form button {
+    margin-top: 10px;
+}
