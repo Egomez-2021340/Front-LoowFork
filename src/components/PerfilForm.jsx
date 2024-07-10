@@ -29,6 +29,7 @@ const PerfilForm = () => {
 
     return (
         <form onSubmit={handleSubmit} className="perfil-form">
+            <h1>Perfil</h1>
             <label>
                 Usuario:
                 <input type="text" name="usuario" value={formData.usuario} onChange={handleChange} />

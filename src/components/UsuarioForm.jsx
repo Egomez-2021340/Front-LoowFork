@@ -26,6 +26,7 @@ function UsuarioForm() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <h1>User</h1>
             <div>
                 <label>
                     Username:

@@ -1,0 +1,14 @@
+.company-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.company-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-form button {
+    margin-top: 10px;
+}

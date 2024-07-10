@@ -1,19 +1,21 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import PerfilForm from './components/PerfilForm';
 import UsuarioForm from './components/UsuarioForm';
+import CompanyForm from './components/CompanyForm';
 
-const App = () => {
+function App() {
     return (
-        <div className="App">
+        <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/perfil" element={<PerfilForm />} />
                 <Route path="/usuario" element={<UsuarioForm />} />
+                <Route path="/company" element={<CompanyForm />} />
             </Routes>
-        </div>
+        </Router>
     );
-};
+}
 
 export default App;
