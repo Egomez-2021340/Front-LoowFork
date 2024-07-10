@@ -1,11 +1,17 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 import PerfilForm from './components/PerfilForm';
+import UsuarioForm from './components/UsuarioForm';
 
 const App = () => {
     return (
         <div className="App">
-            <h1>Formulario de Perfil</h1>
-            <PerfilForm />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/perfil" element={<PerfilForm />} />
+                <Route path="/usuario" element={<UsuarioForm />} />
+            </Routes>
         </div>
     );
 };
